@@ -1,0 +1,450 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1292991881/photo/the-more-you-know-the-more-your-business-grows.webp?b=1&s=612x612&w=0&k=20&c=qBvZZ5hI0HAdP0uODqnxa45v5cgnCN0xJQ1UdjFlJ6c=');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+
+.todo-item .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ff0000;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.todo-item .check-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #00cc00;
+    font-size: 24px;
+}
+
+.post-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.comment-item {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.photo-card {
+    margin-bottom: 20px;
+}
+
+.photo-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.album-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(5px);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-albums {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-albums:hover {
+    background-color: #e0a800;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    margin-bottom: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-success {
+    background-color: #2ecc71;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+}
+
+.btn-primary {
+    background-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.btn-albums {
+    background-color: #f39c12;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-albums:hover {
+    background-color: #d35400;
+    color: #fff;
+}
+
+.btn-outline-primary {
+    border: 2px solid #3498db;
+    color: #3498db;
+    background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+
+.todo-item {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 5px solid #3498db;
+}
+
+.todo-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.todo-item h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding-right: 30px;
+    color: #333;
+}
+
+.todo-item .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #e74c3c;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(231, 76, 60, 0.1);
+    transition: all 0.2s ease;
+}
+
+.todo-item .close-btn:hover {
+    background-color: rgba(231, 76, 60, 0.2);
+    transform: scale(1.1);
+}
+
+.todo-item .check-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #2ecc71;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(46, 204, 113, 0.1);
+}
+
+
+.post-item {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    margin-bottom: 25px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 5px solid #2ecc71;
+}
+
+.post-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.post-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.post-item p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Comment Items */
+.comment-item {
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-left: 3px solid #3498db;
+    transition: transform 0.2s ease;
+}
+
+.comment-item:hover {
+    transform: translateY(-2px);
+}
+
+.comment-item h5 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.comment-item .text-muted {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.comments-container {
+    padding-top: 10px;
+    animation: fadeIn 0.5s ease;
+}
+
+.photo-card {
+    margin-bottom: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 100%;
+}
+
+.photo-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.photo-card:hover img {
+    transform: scale(1.05);
+}
+
+.photo-card .card-body {
+    padding: 15px;
+}
+
+.photo-card .card-text {
+    font-size: 0.9rem;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    --webkit-line-clamp: 2;
+    --webkit-box-orient: vertical;
+}
+
+
+.album-item {
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 5px solid #f39c12;
+}
+
+.album-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.album-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .card-body {
+        padding: 20px;
+    }
+    
+    .todo-item, .post-item, .album-item {
+        padding: 20px;
+    }
+    
+    .btn {
+        padding: 7px 14px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .todo-item h5, .post-item h3, .album-item h3 {
+        font-size: 1.1rem;
+    }
+    
+    .photo-card img {
+        height: 150px;
+    }
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(52, 152, 219, 0.8);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.back-btn:hover {
+    background-color: rgba(41, 128, 185, 0.9);
+    transform: scale(1.1);
+    color: white;
+}
